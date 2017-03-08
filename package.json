@@ -1,0 +1,19 @@
+{
+  "name": "canvas-polygon",
+  "version": "1.0.0",
+  "description": "Create polygons with the Canvas API",
+  "main": "index.js",
+  "repository": "https://github.com/zeke/canvas-polygon",
+  "author": "zeke",
+  "license": "MIT",
+  "devDependencies": {
+    "budo": "^9.4.7",
+    "javascript-yellow": "^1.0.4",
+    "standard": "^9.0.1",
+    "standard-markdown": "^2.3.0"
+  },
+  "scripts": {
+    "test": "standard && standard-markdown",
+    "demo": "budo example.js"
+  }
+}
