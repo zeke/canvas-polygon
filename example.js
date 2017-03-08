@@ -13,5 +13,5 @@ function draw () {
   ctx.fillStyle = yellow
   ctx.fillRect(0, 0, canvasSize, canvasSize)
   ctx.fillStyle = '#000'
-  polygon(ctx, canvasSize/2, canvasSize/2, canvasSize/3, 6, Math.PI/2)
+  polygon(ctx, canvasSize / 2, canvasSize / 2, canvasSize / 3, 6, Math.PI / 2)
 }
